@@ -7,26 +7,19 @@ Can be used to create [Photographic mosaic](https://en.wikipedia.org/wiki/Photog
 ![alt image](https://github.com/CretuCalin/Computer-Vision-Utils/blob/master/images/mosaic.png "Simpson image made of birds")
 
 #### Usage
-
-###### Create virtual environment
 ```
+# Create virtual environment
 python3 -m venv venv
-```
-###### Activate the environment 
-```
+
+# Activate the environment 
 source venv/bin/activate
-```
 
-###### Install requirements 
-```
+# Install requirements 
 pip install -r requirements.txt
-```
 
-###### Download and extract cifra images
-```
+# Download and extract cifra images
 ./download_cifar.sh
-```
-###### Create mosaic from picture
-```
-python mosaic.py --ref <image>
+
+# Create mosaic from picture
+python mosaic.py --ref <image-path>
 ```
